@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  <script src="./main.js" defer></script>
+</head>
+
+<body class="bg-dark">
+  <h1 class="fs-1 text-center py-1 my-3 bg-gradient bg-light text-dark">
+    REGISTRATION FORM
+  </h1>
+  <!-- ************************************************ -->
+  <div class="container my-5 bg-dark text-start">
+    <div class="row  bg-danger fs-3">
+
+      <!-- Left portion -->
+
+      <div class="col bg-light">
+        <div class="row my-4 px-3 mx-3">
+          <div class="col-4"><label for="input">Name : </label></div>
+          <div class="col-8 "><input class="Name" type="text" name="input" id=""></div>
+        </div>
+        <div class="row my-4 px-3 mx-3">
+          <div class="col-4"><label for="input">Email : </label></div>
+          <div class="col-8 "><input class="Email" type="email" name="input" id=""></div>
+        </div>
+        <div class="row my-4 px-3 mx-3">
+          <div class="col-4"><label for="input">Contact : </label></div>
+          <div class="col-8 "><input class="Contact" type="phone" name="input" id=""></div>
+        </div>
+        <div class="row my-4 px-3 mx-3">
+          <div class="col-4"><label for="gender">Gender : </label></div>
+          <div class="col-8 ">
+            Male <input type="radio" style="zoom:2;" name="gender" value="Male" id="">
+            Female <input type="radio" style="zoom:2;" name="gender" value="Female" id="">
+          </div>
+        </div>
+        <div class="row my-4 px-3 mx-3 ">
+          <div class="col-4"><label for="skills">Skills : </label>
+          </div>
+          <div class="col-8 ">
+            <input type="checkbox" style="zoom:1.5;" name="skills" id="" value="Java"> Java &nbsp;
+            <input type="checkbox" style="zoom:1.5;" name="skills" id="" value="JavaScript"> JavaScript &nbsp;
+            <input type="checkbox" style="zoom:1.5;" name="skills" id="" value="Python"> Python &nbsp;
+          </div>
+
+          <button class="btn-primary my-3 enroll" type="submit">Enroll Student</button>
+          <button class="btn-danger mx-3 " type="reset">Clear</button>
+        </div>
+      </div>
+      <!-- ************************************************ -->
+
+      <!-- Right Portion -->
+      <div class="col">
+        <h1 class="text-light text-center bg-light text-dark">Enrolled Student</h1>
+        <div class="container bg-dark text-light">
+          <div class="row mx-3 my-2 p-2 ">
+            <div class="col text-start">Profile Details</div>
+            <div class="col text-end">Profile Image</div>
+          </div>
+        </div>
+
+        <!-- ************ RECORD CONTAINER ****************** -->
+        <div class="container right">
+        <!-- *********** /RECORD CONTAINER ******************* -->
+
+        </div>
+      </div>
+      <!-- ************************************************ -->
+    </div>
+  </div>
+</body>
+
+</html>
